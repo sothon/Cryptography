@@ -6,7 +6,7 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		// these are all public: the ECC and the generator point
+		//// these are all public: the ECC and the generator point
 		ECC ecc = new ECC(3, 7);
 		Point generator = new Point(-2, 1);
 		
